@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Internet Technology Fundamentals</title>
+    <title>Furniture Store</title>
     <style>
         table {
             width: 100%;
@@ -11,61 +11,83 @@
         }
         th, td {
             border: 1px solid black;
-            padding: 8px;
+            padding: 15px;
             text-align: left;
         }
         th {
             background-color: #f2f2f2;
         }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
 
-<!-- First section -->
-<h1>Лаборотори 2</h1>
-<p>Интернэт технологийн үндэс хичээлийн вэбсайт</p>
+<!-- Header Section -->
+<header>
+    <h1>Welcome to Our Furniture Store</h1>
+    <p>High Quality Furniture at Affordable Prices</p>
+</header>
 
-<!-- Main content with table -->
-<table border="1" width="100%" height="600px">
-    <tr height="10%">
-        <td colspan="3">LOGO <a href="https://janubis.github.io/lab2">This is link</a> <a href="about.html">About me</a></td>
+<!-- Main Table Layout -->
+<table>
+    <tr>
+        <td colspan="3">
+            <h2>Featured Products</h2>
+        </td>
     </tr>
     <tr>
-        <td rowspan="2" width="20%">статус</td>
         <td>
-            <h1>Welcome to my Internet Tech Fund lab 2</h1>
-            <!-- Replace broken image link with the correct source -->
-            <img src="dorjoo.jpeg" width="300px" />
-            <p>Сайн байна уу? Одгэрэлийн вэб хуудсанд тавтай морил.</p>
+            <h3>Living Room Set</h3>
+            <img src="living-room-set.jpg" width="250" height="150" alt="Living Room Set">
+            <p>Price: $499</p>
+            <button>Buy Now</button>
         </td>
-        <td width="20%">хобби</td>
+        <td>
+            <h3>Dining Table Set</h3>
+            <img src="dining-table-set.jpg" width="250" height="150" alt="Dining Table Set">
+            <p>Price: $799</p>
+            <button>Buy Now</button>
+        </td>
+        <td>
+            <h3>Office Chair</h3>
+            <img src="office-chair.jpg" width="250" height="150" alt="Office Chair">
+            <p>Price: $129</p>
+            <button>Buy Now</button>
+        </td>
     </tr>
-    <tr height="10%">
-        <td colspan="2">3.2</td>
+    <tr>
+        <td colspan="3">
+            <h2>About Us</h2>
+            <p>We are a leading furniture store offering a wide range of quality furniture for your home and office.</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <h2>Contact Information</h2>
+            <p>Address: 123 Furniture St, City, Country</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: info@furniturestore.com</p>
+        </td>
     </tr>
 </table>
 
-<!-- Second Section -->
-<header>
-    <h1>About Us</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
-    <h2>About Page Content</h2>
-    <p>This page tells you more about my website and mission.</p>
-</main>
-
+<!-- Footer Section -->
 <footer>
-    <p>&copy; 2025 My Name. All rights reserved.</p>
+    <p>&copy; 2025 Furniture Store. All rights reserved.</p>
 </footer>
 
 </body>
