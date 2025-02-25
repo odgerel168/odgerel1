@@ -3,28 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furniture Store</title>
+    <title>Old Facebook Layout - 2004</title>
     <style>
         table {
             width: 100%;
             border-collapse: collapse;
         }
         th, td {
-            border: 1px solid black;
-            padding: 15px;
+            padding: 10px;
             text-align: left;
         }
         th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
             background-color: #f2f2f2;
         }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f5f4;
+        }
         header {
-            background-color: #333;
+            background-color: #3b5998;
             color: white;
             text-align: center;
             padding: 20px;
         }
         footer {
-            background-color: #333;
+            background-color: #3b5998;
             color: white;
             text-align: center;
             padding: 10px;
@@ -32,62 +41,70 @@
             bottom: 0;
             width: 100%;
         }
+        .main-content {
+            padding: 20px;
+        }
+        .profile-picture img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
 
-<!-- Header Section -->
+<!-- Header Section (Тамга хэсэг) -->
 <header>
-    <h1>Welcome to Our Furniture Store</h1>
-    <p>High Quality Furniture at Affordable Prices</p>
+    <h1>Welcome to Facebook 2004</h1>
 </header>
 
-<!-- Main Table Layout -->
+<!-- Main Content Section -->
 <table>
     <tr>
-        <td colspan="3">
-            <h2>Featured Products</h2>
+        <!-- Left Column: Profile Section -->
+        <td width="25%" class="profile-section">
+            <h2>Profile</h2>
+            <div class="profile-picture">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Facebook_Logo_2023.png/1200px-Facebook_Logo_2023.png" alt="Profile Picture">
+            </div>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Location:</strong> Boston, MA</p>
         </td>
-    </tr>
-    <tr>
-        <td>
-            <h3>Living Room Set</h3>
-            <img src="living-room-set.jpg" width="250" height="150" alt="Living Room Set">
-            <p>Price: $499</p>
-            <button>Buy Now</button>
+
+        <!-- Center Column: News Feed Section -->
+        <td width="50%" class="news-feed">
+            <h2>News Feed</h2>
+            <table border="1">
+                <tr>
+                    <td><strong>Friend 1</strong></td>
+                    <td>Just updated their status: "Having a great time in the park!"</td>
+                </tr>
+                <tr>
+                    <td><strong>Friend 2</strong></td>
+                    <td>Shared a photo: "Look at my new car!"</td>
+                </tr>
+                <tr>
+                    <td><strong>Friend 3</strong></td>
+                    <td>Commented on a post: "I totally agree with you!"</td>
+                </tr>
+            </table>
         </td>
-        <td>
-            <h3>Dining Table Set</h3>
-            <img src="dining-table-set.jpg" width="250" height="150" alt="Dining Table Set">
-            <p>Price: $799</p>
-            <button>Buy Now</button>
-        </td>
-        <td>
-            <h3>Office Chair</h3>
-            <img src="office-chair.jpg" width="250" height="150" alt="Office Chair">
-            <p>Price: $129</p>
-            <button>Buy Now</button>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-            <h2>About Us</h2>
-            <p>We are a leading furniture store offering a wide range of quality furniture for your home and office.</p>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="3">
-            <h2>Contact Information</h2>
-            <p>Address: 123 Furniture St, City, Country</p>
-            <p>Phone: 123-456-7890</p>
-            <p>Email: info@furniturestore.com</p>
+
+        <!-- Right Column: Friend Suggestions Section -->
+        <td width="25%" class="friend-suggestions">
+            <h2>Friend Suggestions</h2>
+            <ul>
+                <li><a href="#">Friend 4</a></li>
+                <li><a href="#">Friend 5</a></li>
+                <li><a href="#">Friend 6</a></li>
+            </ul>
         </td>
     </tr>
 </table>
 
-<!-- Footer Section -->
+<!-- Footer Section (Доод хэсэг) -->
 <footer>
-    <p>&copy; 2025 Furniture Store. All rights reserved.</p>
+    <p>&copy; 2004 Facebook. All rights reserved.</p>
 </footer>
 
 </body>
